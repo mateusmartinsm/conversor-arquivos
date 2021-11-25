@@ -1,3 +1,6 @@
 #!/bin/bash
 
-convert ~/alura/linux/automacao/projeto/imagens-livros/algoritmos.jpg ~/alura/linux/automacao/projeto/imagens-livros/algoritmos.png
+CAMINHO_IMAGENS=~/alura/linux/automacao/projeto/imagens-livros/
+
+convert $CAMINHO_IMAGENS/$1.jpg $CAMINHO_IMAGENS/$1.png
+convert $CAMINHO_IMAGENS/$2.jpg $CAMINHO_IMAGENS/$2.png
